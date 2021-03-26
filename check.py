@@ -3,7 +3,6 @@ import os
 import shutil
 import time
 
-os.system('cd d:/Workspace/PNU-Life/1학년/과목/컴퓨터입문/과제/check/')
 file_list = [file.split('.') for file in os.listdir('.')]
 
 input_files = []
