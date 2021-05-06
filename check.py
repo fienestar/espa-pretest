@@ -57,5 +57,5 @@ for i in range(1,tc_count+1):
 
 print('='*15)
 print('틀린 개수: '+str(error_count))
-print('실행 시간: '+str(max_running_time)+'s')
+print('실행 시간: '+str(int(max_running_time*1000))+'ms')
 print('느렸던 입력: '+str(max_running_time_file)+'.inp')
